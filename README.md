@@ -13,12 +13,8 @@ sklearn - for classification, regression and svm algorithms
 Dataset:
 https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Kitchen_v1_00.tsv
 .gz
-The dataset contains review data of a Kitchen appliance with Ratings and Customer
-Reviews. The data is read into a pandas data frame for processing, The required fields for
-analysis are “star_rating” and “review_body”. To label the reviews, we are using the
-information in the rating. The ratings 4 and 5 are labelled as positive sentiment - label 1, and
-ratings 1 and 2 are considered negative sentiment - label 0. The neutral rating 3 is discarded
-from the analysis.
+
+The dataset contains review data of a Kitchen appliance with Ratings and Customer Reviews. The data is read into a pandas data frame for processing, The required fields for analysis are “star_rating” and “review_body”. To label the reviews, we are using the information in the rating. The ratings 4 and 5 are labelled as positive sentiment - label 1, and ratings 1 and 2 are considered negative sentiment - label 0. The neutral rating 3 is discarded from the analysis.
 
 # Data Cleaning:
 In order to extract features from the reviews it is important to clean the data and get rid of
