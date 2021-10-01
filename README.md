@@ -30,6 +30,7 @@ http/https strings
 4. Fixing Contractions - using contractions library in python
 5. Removing non-alphabetical characters - using regular expressions
 6. Removing extra spaces between the words
+
 Average Length of Reviews before cleaning = 323.071085
 Average Length of Reviews after cleaning = 311.87936
 
@@ -39,6 +40,7 @@ can be analysed as a single item and removal of stopwords such as ‘the’, ‘
 not account much to the emotion in the review.
 1. Removal of stopwords - using nltk corpus of stopwords
 2. Lemmatization - using nltk WordNetLemmatizer
+
 Average Length of Reviews before preprocessing = 311.87936
 Average Length of Reviews after preprocessing = 189.93782
 
